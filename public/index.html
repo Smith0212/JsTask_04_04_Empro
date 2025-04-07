@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./signup.css" />
+        <title>Signup</title>
+    </head>
+    <body>
+        <form class="signup-form">
+            <h4>Signup</h4>
+            <div class="form-control">
+                <input
+                    type="text"
+                    name="name"
+                    class="task-input"
+                    placeholder="Enter your name"
+                />
+                <input
+                    type="email"
+                    name="email"
+                    class="task-input"
+                    placeholder="Enter your email"
+                />
+                <input
+                    type="password"
+                    name="password"
+                    class="task-input"
+                    placeholder="Create a password"
+                />
+                <button type="submit" class="btn signup-btn">Sign Up</button>
+            </div>
+            <div class="form-alert"></div>  
+        </form>
+        <p><a href="./login.html">Login here</a></p>
+
+        <!-- axios -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+            integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="./signup.js"></script>
+    </body>
+</html>
